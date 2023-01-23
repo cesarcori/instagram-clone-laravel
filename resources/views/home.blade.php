@@ -26,10 +26,10 @@
             <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
         </div>
         <div class="col-4">
-            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
+            <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/03/10183927/danial-ricaros-785707-unsplash.jpeg" class="w-100">
         </div>
         <div class="col-4">
-            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
+            <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/09/26230659/mimi-thian-5ZnS3wK6sUg-unsplash.jpeg" class="w-100">
         </div>
     </div>
 </div>
