@@ -21,5 +21,16 @@
             <div><a href="#">www.freecodecamp.org</a></div>
         </div>
     </div>
+    <div class="row p-5">
+        <div class="col-4">
+            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
+        </div>
+        <div class="col-4">
+            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
+        </div>
+    </div>
 </div>
 @endsection
