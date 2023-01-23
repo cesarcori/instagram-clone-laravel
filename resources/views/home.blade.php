@@ -11,10 +11,10 @@
         </div>
         <div class="col-9 p-5">
             <div><h1>InstaClone</h1></div>
-            <div>
-                <div><strong>153</strong>posts</div>
-                <div><strong>23k</strong>followers</div>
-                <div><strong>212</strong>following</div>
+            <div class="d-flex">
+                <div class="pe-5"><strong>153</strong> posts</div>
+                <div class="pe-5"><strong>23k</strong> followers</div>
+                <div class="pe-5"><strong>212</strong> following</div>
             </div>
         </div>
     </div>
