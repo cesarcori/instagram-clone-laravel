@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('url')->nullable();
             $table->timestamps();
 
-            $table->idex('user_id');
+            $table->index('user_id');
         });
     }
 
