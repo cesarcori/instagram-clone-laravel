@@ -18,7 +18,7 @@
             </div>
             <div class="pt-2 fw-bold">{{ $user->profile->title }}</div>
             <div>{{ $user->profile->description }}</div>
-            <div><a href="#">www.freecodecamp.org</a></div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row p-5">
