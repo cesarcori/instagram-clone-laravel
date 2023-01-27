@@ -17,7 +17,7 @@
                 <div class="pe-5"><strong>212</strong> following</div>
             </div>
             <div class="pt-2 fw-bold">{{ $user->profile->title }}</div>
-            <div>Description about that consist FreeCodeCamp </div>
+            <div>{{ $user->profile->description }}</div>
             <div><a href="#">www.freecodecamp.org</a></div>
         </div>
     </div>
