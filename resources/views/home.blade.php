@@ -10,7 +10,10 @@
             alt="camera-logo">        
         </div>
         <div class="col-9 p-5">
-            <div><h1>{{ $user -> username }}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{ $user -> username }}</h1>
+                <a href="#">Add new post</a>
+            </div>
             <div class="d-flex">
                 <div class="pe-5"><strong>153</strong> posts</div>
                 <div class="pe-5"><strong>23k</strong> followers</div>
@@ -18,7 +21,7 @@
             </div>
             <div class="pt-2 fw-bold">{{ $user->profile->title }}</div>
             <div>{{ $user->profile->description }}</div>
-            <div><a href="#">{{ $user->profile->url }}</a></div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>   ,
         </div>
     </div>
     <div class="row p-5">
