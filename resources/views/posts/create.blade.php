@@ -6,6 +6,10 @@
         <div class="row">
             <div class="col-8 offset-2">
 
+                <div class="row">
+                    <h1>Add New Post</h1>
+                </div>
+
                 <div class="row mb-3">
                     <label for="caption" class="col-md-4 col-form-label">Post Caption</label>
 
