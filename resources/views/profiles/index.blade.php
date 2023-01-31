@@ -21,19 +21,15 @@
             </div>
             <div class="pt-2 fw-bold">{{ $user->profile->title }}</div>
             <div>{{ $user->profile->description }}</div>
-            <div><a href="#">{{ $user->profile->url }}</a></div>   ,
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row p-5">
-        <div class="col-4">
-            <img src="https://discourse-user-assets.s3.amazonaws.com/original/2X/f/f9165819dd1e91941cd3c7481d28adba04c9ccaf.png" class="w-100">
-        </div>
-        <div class="col-4">
-            <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/03/10183927/danial-ricaros-785707-unsplash.jpeg" class="w-100">
-        </div>
-        <div class="col-4">
-            <img src="https://pathrise-website-guide-wp.s3.us-west-1.amazonaws.com/guides/wp-content/uploads/2019/09/26230659/mimi-thian-5ZnS3wK6sUg-unsplash.jpeg" class="w-100">
-        </div>
+        @foreach($user->posts as $post)
+            <div class="col-4">
+                <img src="/storage/{{ $post->image }}" class="w-100">
+            </div>
+        @endforeach
     </div>
 </div>
 @endsection
