@@ -15,11 +15,11 @@ class ProfilesController extends Controller
         //return view('profiles.index', [
             //'user' => $user,
         //]);
-        return view('profiles.index', compact('user'))
+        return view('profiles.index', compact('user'));
     }
 
     public function edit(User $user)
     {
-        return view('profiles.edit', compact('user'))
+        return view('profiles.edit', compact('user'));
     }
 }
