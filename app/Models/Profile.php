@@ -9,6 +9,8 @@ class Profile extends Model
 {
     use HasFactory;
 
+    protected $guarded = []; //This unprotect mass assigment
+
     public function user(){
         return $this->belongsTo(User::class);
     }
