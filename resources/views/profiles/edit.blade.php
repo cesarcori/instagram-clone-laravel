@@ -13,17 +13,17 @@
                 </div>
 
                 <div class="row mb-3">
-                    <label for="caption" class="col-md-4 col-form-label">Post Caption</label>
+                    <label for="title" class="col-md-4 col-form-label">Post Title</label>
 
-                    <input id="caption" 
+                    <input id="title" 
                         type="text" 
-                        class="form-control @error('caption') is-invalid @enderror" 
-                        name="caption"
-                        value="{{ old('caption') }}" 
-                        autocomplete="caption" 
+                        class="form-control @error('title') is-invalid @enderror" 
+                        name="title"
+                        value="{{ old('title') }}" 
+                        autocomplete="title" 
                         autofocus>
 
-                    @error('caption')
+                    @error('title')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
