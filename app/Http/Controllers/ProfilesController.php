@@ -26,6 +26,8 @@ class ProfilesController extends Controller
 
     public function update(User $user)
     {
+        $this->authorize('update', $user->profile);
+
         $data = request()->validate([
             'title' => 'required',
             'description' => 'required',
