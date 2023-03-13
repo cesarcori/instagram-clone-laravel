@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="https://www.seekpng.com/png/small/52-526178_logo-clipart-camera-camera-png-for-logo.png" 
+            <img src="/storage/{{ $user->profile->image }}" 
             style="height: 100px;"
             class="rounded-circle"
             alt="camera-logo">        
