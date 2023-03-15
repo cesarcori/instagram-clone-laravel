@@ -11,6 +11,12 @@ class Profile extends Model
 
     protected $guarded = []; //This unprotect mass assigment
 
+    public function profileImage()
+    {
+        $imagePath = ($this->image) ? $this->image : 'profile/DH9M36mP9wJs4kb5QpJmWq50jgfb9soaUe0g3npd.png'; 
+        return '/storage/' . $imagePath ;
+    }
+
     public function user(){
         return $this->belongsTo(User::class);
     }
