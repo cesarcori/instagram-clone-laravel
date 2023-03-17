@@ -11,11 +11,11 @@
         </div>
         <div class="col-9 p-5">
             <div class="d-flex justify-content-between align-items-baseline">
-                <div class="d-flex">
+                <div class="d-flex align-items-center pb-3">
 
-                    <h1>{{ $user -> username }}</h1>
+                    <div class="h4">{{ $user -> username }}</div>
 
-                    <button class="btn btn-primary ms-4">Follow</button>
+                    <follow-button></follow-button>
 
                 </div>
 
