@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <button class="btn btn-primary ms-4">Follow something</button>
+        <button class="btn btn-primary ms-4" @click="followUser">Follow</button>
 
     </div>
 </template>
@@ -10,6 +10,15 @@
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+
+        methods: {
+            followUser() {
+                axios.post('/follow/1')
+                    .then(response => {
+                        alert(response);
+                    })
+            }
         }
     }
 </script>
