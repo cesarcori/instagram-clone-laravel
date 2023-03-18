@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <button class="btn btn-primary ms-4" @click="followUser">Follow</button>
+        <button class="btn btn-primary ms-4" @click="followUser" v-text="buttonText"></button>
 
     </div>
 </template>
@@ -26,6 +26,12 @@
                     .then(response => {
                         console.log(response.data);
                     })
+            }
+        },
+
+        computed: {
+            buttonText() {
+                return (this.status) ? 'Unfollow' : 'Follow';
             }
         }
     }
