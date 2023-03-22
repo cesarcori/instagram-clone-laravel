@@ -1,7 +1,7 @@
 <x-mail::message>
 # Welcome freeCodeGram
 
-The body of your message.
+This is a community of fellow developers and we love that you have joined us.
 
 <x-mail::button :url="''">
 Button Text
