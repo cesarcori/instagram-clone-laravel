@@ -1,5 +1,5 @@
 <x-mail::message>
-# Introduction
+# Welcome freeCodeGram
 
 The body of your message.
 
