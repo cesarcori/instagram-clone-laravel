@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Mail\NewUserWelcomMail;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 
 Auth::routes();
+
+Route::get('/email', function(){
+    return new NewUserWelcomMail();
+});
 
 Route::post('follow/{user}', [App\Http\Controllers\FollowsController::class, 'store']);
 
